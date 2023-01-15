@@ -9,8 +9,8 @@ def canUnlockAll(boxes):
     Determines if n locked boxes csn be unlocked,\
     each box may contain keys to other boxes
     """
-    unlocked = set([0]) #keep track of unlocked boxes
-    keys = set(boxes[0]) #Keep track of keys
+    unlocked = set([0])  # keep track of unlocked boxes
+    keys = set(boxes[0])  # Keep track of keys
 
     while keys:
         box = keys.pop()
